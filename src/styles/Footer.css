@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+.footer {
+  width: 100%;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  background: #12674A;;
+
+}
+.footer .content img {
+  width: 130px;
+  height: 100px;
+  padding: 10px;
+  margin-left: 140px;
+  margin-top:10px;
+  margin-bottom: -5px;
+  display: block;
+}
+.footer .content a {
+  width: 50px;
+  height: 50px;
+}
+.footer .content h5 {
+  font-size: 20px;
+  margin: 5px 5px;
+  color: white;
+}
+
+.footer .content h4 {
+  font-size: 15px;
+  margin-left: 30px;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer svg {
+    font-size: 50px;
+  }
+}
