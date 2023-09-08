@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import "../styles/SignUp.css";
+import { Text, View } from "react";
 
 function SignUp() {
   return (
-    <div>SignUp</div>
-  )
+    <View>
+      <Text>
+        <h1>huh</h1>
+      </Text>
+    </View>
+  );
 }
 
-export default SignUp
+export default SignUp;
